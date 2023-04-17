@@ -10,13 +10,15 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!">DVS Désencombrement</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="#!"><i class="bi bi-truck"></i> DVS Désencombrement</a>
+<!--                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>-->
 <!--                <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
 <!--                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
 <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>-->
@@ -30,46 +32,96 @@
         <!-- Page Content-->
         <div class="container px-4 px-lg-5">
             <!-- Heading Row-->
+<!--            <div class="row gx-4 gx-lg-5 align-items-center my-5">-->
+<!--                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>-->
+<!--                <div class="col-lg-5">-->
+<!--                    <h1 class="font-weight-light">DVS Désencombrement</h1>-->
+<!--                    <p>David Vincent Services - Désencombrement est à votre service pour vous aider à désencombrer vos intérieurs, greniers, caves, etc.</p>-->
+<!--                    <a class="btn btn-primary" href="tel:+33619481465"><i class="bi bi-telephone"></i> J'appelle maintenant</a>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
-                <div class="col-lg-5">
-                    <h1 class="font-weight-light">DVS Désencombrement</h1>
-                    <p>David Vincent Services - Désencombrement est à votre service pour vous aider à désencombrer vos intérieurs, greniers, caves, etc.</p>
-                    <a class="btn btn-primary" href="tel:+33619481465">J'appelle maintenant</a>
+                <div
+                        class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white main-jumbotron"
+                >
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/icon-vans.svg" />
+                        </div>
+                        <div class="col-md-8">
+                            <h1 class="font-weight-light">DVS Désencombrement</h1>
+                            <p>David Vincent Services - Désencombrement est à votre service pour vous aider à désencombrer vos intérieurs, greniers, caves, etc.</p>
+                            <a class="btn btn-primary" href="tel:+33619481465"><i class="bi bi-telephone"></i> J'appelle maintenant</a>
+                        </div>
+                    </div>
+                         
                 </div>
-            </div>
-            <!-- Call to Action-->
-            <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p></div>
             </div>
             <!-- Content Row-->
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">Card One</h2>
+                            <h2 class="card-title">Désencombrement <i class="bi bi-box-seam"></i></h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>-->
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">Card Two</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                            <h2 class="card-title">Démontage de cuisine <i class="bi bi-screwdriver"></i></h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>-->
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">Card Three</h2>
+                            <h2 class="card-title">Évacuation des encombrants <i class="bi bi-house-gear"></i></h2>
+                            <p class="card-text">Évacuation et recyclage de votre mobilier, électroménager, gros outillage</p>
+                        </div>
+<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>-->
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Intervention fin de chantier</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>-->
                     </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Démolition <i class="bi bi-hammer"></i></h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>-->
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Évacuation déchets verts <i class="bi bi-recycle text-success"></i></h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>-->
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0"><i class="bi bi-map"></i> Nous intervenons sur les communes de : Chozeau, Boirieu, etc...</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51613.78759973037!2d5.168934028025133!3d45.68012318865403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6c020cf367365a91%3A0xcb4394731753642f!2sDVS%20D%C3%A9sencombrement%20et%20D%C3%A9barras%20-%20D%C3%A9barras%20et%20vide%20maison%2C%20grenier%2C%20cave%E2%80%A6!5e0!3m2!1sfr!2sfr!4v1681741401394!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

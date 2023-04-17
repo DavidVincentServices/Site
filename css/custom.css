@@ -1,0 +1,10 @@
+.main-jumbotron {
+    background-image: url('../assets/bkg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+.card-title {
+    word-break: break-word;
+}
