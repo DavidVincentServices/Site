@@ -8,3 +8,5 @@
 .card-title {
     word-break: break-word;
 }
+
+.carousel-item img {height: 300px;}
